@@ -1,0 +1,43 @@
+div, p, body, head, html, h1, section {
+  margin: 0 auto;
+  border: 0;
+  padding: 0;
+  display: inherit;
+
+  font-family: 'Ravi Prakash', cursive;
+  font-size: inherit;
+  background: transparent;
+
+}
+#root {
+  display: flex;
+  justify-content: center;
+  margin: 10px; 
+}
+
+.clock-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  background-color: #FF69B4;
+  width: 40%;
+  border: 5px solid orange;
+}
+
+.date-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-box {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  background-color: yellow;
+
+}
